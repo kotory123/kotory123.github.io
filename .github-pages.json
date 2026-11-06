@@ -1,0 +1,13 @@
+{
+  "config": "pages.json",
+  "theme": "template",
+  "sample": null,
+  "version": "0.167.0",
+  "slug": "portfolio",
+  "npm": null,
+  "asset_build": [],
+  "generator": "3.1",
+  "repo": "https://github.com/kotory123/kotory123.github.io.git",
+  "baseURL": "https://kotory123.github.io/",
+  "audited": false
+}
