@@ -1,0 +1,11 @@
+{{- /* 테마 원본(themes/template/layouts/_partials/social_icons.html)을 덮어씀.
+     아이콘만 있는 링크라 화면 읽기 프로그램이 이름을 읽을 수 있게 aria-label을 넣고,
+     장식용 아이콘(svg)은 읽지 않게 aria-hidden으로 감쌈 (평가 기준 P46) */ -}}
+<div class="social-icons" {{ with .align}}align="{{.}}" {{- end }}>
+    {{- range site.Params.socialIcons }}
+    <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
+        title="{{ .title | default .name }}" aria-label="{{ .title | default .name }} (새 창)">
+        <span aria-hidden="true">{{ partial "svg.html" . }}</span>
+    </a>
+    {{- end }}
+</div>
