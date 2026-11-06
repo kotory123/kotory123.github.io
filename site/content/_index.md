@@ -1,4 +1,3 @@
 ---
-title: Welcome
+title: "고영민 포트폴리오"
 ---
-Welcome to my website.
