@@ -7,3 +7,13 @@ summary:focus-visible {
     outline-offset: 3px;
     border-radius: 4px;
 }
+
+/* 긴 URL·영문 단어가 좁은 화면(390px)에서 가로로 넘치지 않게 줄바꿈 (평가 기준 P36) */
+.post-content {
+    overflow-wrap: anywhere;
+}
+/* 표는 좁은 화면에서 표 안에서만 가로 스크롤 */
+.post-content table {
+    display: block;
+    overflow-x: auto;
+}
