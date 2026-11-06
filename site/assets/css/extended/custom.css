@@ -1,0 +1,9 @@
+/* 키보드(Tab)로 이동할 때 지금 선택된 링크·버튼이 잘 보이게 테두리를 그림 (평가 기준 P43).
+   마우스로 클릭할 때는 :focus-visible이 아니라서 테두리가 생기지 않음 */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+    outline: 3px solid #2f7de1;
+    outline-offset: 3px;
+    border-radius: 4px;
+}
