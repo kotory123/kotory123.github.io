@@ -23,7 +23,6 @@
     "template"
   ],
   "title": "고영민 포트폴리오",
-  "languageCode": "ko-KR",
   "defaultContentLanguage": "ko",
   "params": {
     "author": "고영민",
@@ -63,5 +62,6 @@
       }
     ]
   },
-  "copyright": "© 2026 고영민 · 테마 [PaperMod](https://github.com/adityatelange/hugo-PaperMod) (MIT)"
+  "copyright": "© 2026 고영민 · 테마 [PaperMod](https://github.com/adityatelange/hugo-PaperMod) (MIT)",
+  "locale": "ko-KR"
 }
