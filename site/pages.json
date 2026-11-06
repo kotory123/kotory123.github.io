@@ -26,7 +26,7 @@
   "defaultContentLanguage": "ko",
   "params": {
     "author": "고영민",
-    "description": "전북대학교 고영민의 개인 포트폴리오 - 웹 프론트엔드와 전력 IT 프로젝트 기록",
+    "description": "전북대학교 컴퓨터공학과 고영민의 개인 포트폴리오 - 웹 프론트엔드와 전력 IT 프로젝트 기록",
     "defaultTheme": "auto",
     "ShowBreadCrumbs": true,
     "ShowPostNavLinks": true,
@@ -36,7 +36,7 @@
     ],
     "homeInfoParams": {
       "Title": "안녕하세요, 고영민입니다",
-      "Content": "전북대학교 3학년. 웹 화면(프론트엔드)과 전력 IT에 관심이 있습니다.\n\n- [소개](about/) : 관심 분야, 학습 목표, 사용 기술\n- [활동](projects/) : 캡스톤디자인 「배전계통 통합 분석 플랫폼」 등"
+      "Content": "전북대학교 컴퓨터공학과 3학년. 웹 화면(프론트엔드)과 전력 IT에 관심이 있습니다.\n\n- [소개](about/) : 관심 분야, 학습 목표, 사용 기술\n- [활동](projects/) : 캡스톤디자인 「배전계통 통합 분석 플랫폼」 등"
     },
     "socialIcons": [
       {
