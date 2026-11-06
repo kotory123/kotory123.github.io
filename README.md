@@ -17,3 +17,16 @@
 | `site/themes/template/` | PaperMod 테마 원본 (수정하지 않음) |
 | `.github/workflows/hugo-pages.yml` | GitHub Actions 빌드·배포 |
 | `.github/pages_build.py` | 수업 제공 스크립트 (의존성 설치·빌드) |
+
+## 로컬에서 빌드하기
+
+필요한 도구: Git, Python 3.9 이상, Hugo extended **0.167.0** (Actions와 같은 버전)
+
+```bash
+git clone https://github.com/kotory123/kotory123.github.io.git
+cd kotory123.github.io
+hugo version                       # hugo v0.167.0+extended 확인
+python .github/pages_build.py --build   # public/ 폴더에 사이트 생성
+```
+
+미리보기만 할 때는 `cd site` 후 `hugo server`를 실행하고 http://localhost:1313/ 을 엽니다.
