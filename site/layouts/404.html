@@ -1,0 +1,5 @@
+{{- /* 테마 원본 404 화면은 숫자 404만 보여서, 안내 문구와 홈으로 가는 링크를 추가 (평가 기준 P23) */ -}}
+{{- define "main" }}
+<div class="not-found">404</div>
+<p class="not-found-text">페이지를 찾을 수 없습니다. 주소를 다시 확인하거나 <a href="{{ "" | absURL }}">홈으로 돌아가세요</a>.</p>
+{{- end }}{{/* end main */ -}}

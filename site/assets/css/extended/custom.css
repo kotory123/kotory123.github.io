@@ -30,3 +30,9 @@ summary:focus-visible {
         animation: none !important;
     }
 }
+
+/* 404 안내 문구 (layouts/404.html) */
+.not-found-text {
+    text-align: center;
+    margin-top: 8px;
+}
