@@ -63,5 +63,6 @@
     ]
   },
   "copyright": "© 2026 고영민 · 테마 [PaperMod](https://github.com/adityatelange/hugo-PaperMod) (MIT)",
-  "locale": "ko-KR"
+  "locale": "ko-KR",
+  "enableRobotsTXT": true
 }
