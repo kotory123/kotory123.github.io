@@ -39,5 +39,21 @@
       "Title": "안녕하세요, 고영민입니다",
       "Content": "전북대학교 3학년. 웹 화면(프론트엔드)과 전력 IT에 관심이 있습니다.\n\n- [소개](about/) : 관심 분야, 학습 목표, 사용 기술\n- [활동](projects/) : 캡스톤디자인 「배전계통 통합 분석 플랫폼」 등"
     }
+  },
+  "menu": {
+    "main": [
+      {
+        "identifier": "about",
+        "name": "소개",
+        "url": "/about/",
+        "weight": 10
+      },
+      {
+        "identifier": "projects",
+        "name": "활동",
+        "url": "/projects/",
+        "weight": 20
+      }
+    ]
   }
 }
