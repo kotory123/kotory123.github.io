@@ -2,6 +2,7 @@
 title: "소개"
 description: "전북대학교 컴퓨터공학과 3학년 고영민의 소개, 관심 분야, 학습 목표, 역량"
 ShowBreadCrumbs: true
+ShowToc: true
 ---
 
 ## 고영민
