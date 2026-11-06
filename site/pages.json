@@ -31,6 +31,9 @@
     "defaultTheme": "auto",
     "ShowBreadCrumbs": true,
     "ShowPostNavLinks": true,
-    "ShowReadingTime": false
+    "ShowReadingTime": false,
+    "mainSections": [
+      "projects"
+    ]
   }
 }
