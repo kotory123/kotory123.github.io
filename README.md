@@ -30,3 +30,21 @@ python .github/pages_build.py --build   # public/ 폴더에 사이트 생성
 ```
 
 미리보기만 할 때는 `cd site` 후 `hugo server`를 실행하고 http://localhost:1313/ 을 엽니다.
+
+## 수정하고 다시 배포하기
+
+1. 위 표에서 고칠 파일을 수정합니다 (예: 소개 글은 `site/content/about.md`).
+2. 커밋하고 `main`에 push합니다.
+   ```bash
+   git add -A
+   git commit -m "content: 소개 글 수정"
+   git push
+   ```
+3. 저장소 **Actions** 탭에서 `Deploy Hugo to GitHub Pages` 실행이 초록 체크인지 확인합니다.
+4. https://kotory123.github.io/ 를 새로고침해 바뀐 내용을 확인합니다.
+
+## 출처와 라이선스
+
+- 테마: Hugo PaperMod © adityatelange, MIT License (`LICENSE`, `site/themes/template/LICENSE`)
+- 배포 준비: 수업 제공 `prepare_github_pages.py` 3.1
+- 글: 직접 작성. 문장 다듬기와 설정 작성에 AI(Claude)의 도움을 받았고, 내용은 직접 확인했습니다.
